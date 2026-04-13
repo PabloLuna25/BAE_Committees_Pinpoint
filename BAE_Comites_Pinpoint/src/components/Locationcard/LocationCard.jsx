@@ -1,4 +1,6 @@
-export default function LocationCard({ location, onView }) {
+import "./LocationCard.css";
+
+export default function LocationCard({ location, onView }) {    
     console.log("Location card event called")
   return (
     <div className="card">
