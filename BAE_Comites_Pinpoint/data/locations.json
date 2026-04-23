@@ -1,0 +1,114 @@
+[
+  {
+    "provincia": "Puntarenas",
+    "categoria": "01. PLAYA",
+    "nombre": "Playa Caldera",
+    "canton": "ESPARZA",
+    "distrito": "Caldera"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "01. PLAYA",
+    "nombre": "Playa Tivives (nueva)",
+    "canton": "ESPARZA",
+    "distrito": "Caldera"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "02. COMUNIDADES Y COMUNIDADES INDÍGENAS",
+    "nombre": "Condominio La Mallorquina",
+    "canton": "ESPARZA",
+    "distrito": "Esparza"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "03. CENTROS EDUCATIVOS MEP",
+    "nombre": "ESCUELA MARAÑONAL",
+    "canton": "ESPARZA",
+    "distrito": "Macacona"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "07. MICROCUENCAS",
+    "nombre": "Río Jesús María",
+    "canton": "ESPARZA",
+    "distrito": "San Rafael"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Alvarado Vargas",
+    "canton": "ESPARZA",
+    "distrito": "Espíritu Santo"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "PORRAS LEE",
+    "canton": "ESPARZA",
+    "distrito": "San Juan Grande"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Peraza Juárez",
+    "canton": "ESPARZA",
+    "distrito": "Espíritu Santo"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Serrano Gutiérrez",
+    "canton": "ESPARZA",
+    "distrito": "San Rafael"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "González Madrigal",
+    "canton": "ESPARZA",
+    "distrito": "Espiritu Santo"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Ferreto Quirós",
+    "canton": "ESPARZA",
+    "distrito": "San Rafael"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Pineda Ledezma",
+    "canton": "ESPARZA",
+    "distrito": "San Jerónimo"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "10. HOGARES SOSTENIBLES",
+    "nombre": "Chan Ramirez",
+    "canton": "ESPARZA",
+    "distrito": "Espíritu Santo"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "12 AGROPECUARIO",
+    "nombre": "Asociacion de Productores y Agricultores de la Feria del Agricultor de Puntarenas",
+    "canton": "ESPARZA",
+    "distrito": "Esparza"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "12 AGROPECUARIO",
+    "nombre": "Finca Agua Clara",
+    "canton": "ESPARZA",
+    "distrito": "Esparza"
+  },
+  {
+    "provincia": "Puntarenas",
+    "categoria": "12 AGROPECUARIO",
+    "nombre": "Finca Entremanglares",
+    "canton": "ESPARZA",
+    "distrito": "Esparza"
+  }
+]

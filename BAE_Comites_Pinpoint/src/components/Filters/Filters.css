@@ -1,0 +1,41 @@
+/* Main container */
+.filters-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+/* Inputs */
+.filters-container select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-width: 160px;
+}
+
+/* Button */
+.filters-container button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover */
+.filters-container button:hover {
+  background-color: #0d47a1;
+}
+
+/* Disabled */
+.filters-container select:disabled,
+.filters-container button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}

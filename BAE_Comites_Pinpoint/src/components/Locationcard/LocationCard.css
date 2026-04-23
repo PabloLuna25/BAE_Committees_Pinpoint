@@ -1,0 +1,49 @@
+/* Card container */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #1976d2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.card h3 {
+  margin: 0 0 10px;
+  color: #0d47a1;
+}
+
+/* Text */
+.card p {
+  margin: 0 0 15px;
+  color: #555;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #42a5f5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #1e88e5;
+}
+
+.card button:disabled {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
