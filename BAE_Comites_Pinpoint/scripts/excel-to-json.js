@@ -57,7 +57,7 @@ async function convertExcelToJSON() {
 
       // Final object
       data.push({
-        provincia: "Puntarenas", // your file is only Esparza
+        provincia: "Puntarenas",
         ...rowData
       });
     });
