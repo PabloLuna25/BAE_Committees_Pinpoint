@@ -1,0 +1,51 @@
+/* For the moment, this css file is not being used because of problems regarding leaflet, idk why tho */
+
+/* Filters container */
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Select inputs */
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  font-size: 14px;
+  min-width: 180px;
+  transition: all 0.2s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #1976d2;
+  background-color: #ffffff;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+/* Disabled states */
+select:disabled,
+button:disabled {
+  background-color: #cfd8dc;
+  cursor: not-allowed;
+}

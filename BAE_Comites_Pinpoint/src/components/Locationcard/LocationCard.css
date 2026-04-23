@@ -1,61 +1,49 @@
+/* Card container */
 .card {
   background: white;
   border-radius: 12px;
   padding: 16px;
-  border: 1px solid #e0e0e0;
-
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #1976d2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* Hover effect */
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 /* Title */
 .card h3 {
-  font-size: 16px;
-  margin: 0 0 8px 0;
-  color: #333;
+  margin: 0 0 10px;
+  color: #0d47a1;
 }
 
-/* Location text */
+/* Text */
 .card p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 12px;
+  margin: 0 0 15px;
+  color: #555;
 }
 
-/* 🔘 Button */
+/* Button */
 .card button {
-  padding: 8px 12px;
-  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
   border: none;
-
-  background-color: #2d89ef;
+  border-radius: 8px;
+  background-color: #42a5f5;
   color: white;
-  font-size: 14px;
-
+  font-weight: bold;
   cursor: pointer;
-
-  transition: background 0.2s ease, opacity 0.2s ease;
+  transition: background 0.3s ease;
 }
 
-/* Hover */
 .card button:hover {
-  background-color: #1b5fbf;
+  background-color: #1e88e5;
 }
 
-/* Disabled button */
 .card button:disabled {
-  background-color: #cccccc;
+  background-color: #b0bec5;
   cursor: not-allowed;
-  opacity: 0.7;
 }

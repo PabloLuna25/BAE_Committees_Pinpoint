@@ -1,5 +1,6 @@
 import { useState } from "react";
 import geoData from "../../../data/cr_geo.json";
+//import "./Filters.css";
 
 export default function Filters({ onFilter }) {
   const geo = geoData["Costa Rica"];
