@@ -1,51 +1,41 @@
-/* For the moment, this css file is not being used because of problems regarding leaflet, idk why tho */
-
-/* Filters container */
-div {
+/* Main container */
+.filters-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
   gap: 10px;
-  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap; /* makes it responsive */
 }
 
-/* Select inputs */
-select {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #90caf9;
-  background-color: #e3f2fd;
-  color: #0d47a1;
+/* Inputs */
+.filters-container select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
   font-size: 14px;
-  min-width: 180px;
-  transition: all 0.2s ease;
-}
-
-select:focus {
-  outline: none;
-  border-color: #1976d2;
-  background-color: #ffffff;
+  min-width: 160px;
 }
 
 /* Button */
-button {
-  padding: 10px 20px;
+.filters-container button {
+  padding: 8px 16px;
+  border-radius: 6px;
   border: none;
-  border-radius: 8px;
   background-color: #1976d2;
   color: white;
-  font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
-button:hover {
+/* Hover */
+.filters-container button:hover {
   background-color: #0d47a1;
 }
 
-/* Disabled states */
-select:disabled,
-button:disabled {
-  background-color: #cfd8dc;
+/* Disabled */
+.filters-container select:disabled,
+.filters-container button:disabled {
+  background-color: #eee;
   cursor: not-allowed;
 }

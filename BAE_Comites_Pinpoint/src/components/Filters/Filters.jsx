@@ -1,6 +1,6 @@
 import { useState } from "react";
 import geoData from "../../../data/cr_geo.json";
-//import "./Filters.css";
+import "./Filters.css";
 
 export default function Filters({ onFilter }) {
   const geo = geoData["Costa Rica"];
@@ -20,8 +20,7 @@ export default function Filters({ onFilter }) {
     provincia && canton ? geo[provincia][canton] : [];
 
   return (
-    <div>
-      {/* Provincia */}
+    <div className="filters-container">
       <select
         onChange={(e) => {
           setProvincia(e.target.value);
@@ -35,7 +34,6 @@ export default function Filters({ onFilter }) {
         ))}
       </select>
 
-      {/* Cantón */}
       <select
         disabled={!provincia}
         onChange={(e) => {
@@ -49,7 +47,6 @@ export default function Filters({ onFilter }) {
         ))}
       </select>
 
-      {/* Distrito */}
       <select
         disabled={!canton}
         onChange={(e) => setDistrito(e.target.value)}
@@ -67,6 +64,6 @@ export default function Filters({ onFilter }) {
       >
         Buscar
       </button>
-    </div>
+  </div>
   );
 }
