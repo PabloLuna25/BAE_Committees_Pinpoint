@@ -65,11 +65,11 @@ async function convertExcelToJSON() {
     // Save JSON
     fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), "utf-8");
 
-    console.log("✅ Excel converted successfully!");
-    console.log(`📁 Output file: ${outputPath}`);
-    console.log(`📊 Records: ${data.length}`);
+    console.log("Excel converted successfully!");
+    console.log(`Output file: ${outputPath}`);
+    console.log(`Records: ${data.length}`);
   } catch (error) {
-    console.error("❌ Error converting Excel:", error.message);
+    console.error("Error converting Excel:", error.message);
   }
 }
 
