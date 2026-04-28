@@ -6,6 +6,7 @@ export default function LocationCard({ location, onView }) {
     <div className="card">
       <h3>{location.nombre}</h3>
       <p>{location.distrito}</p>
+      <p>{location.categoria}</p>
 
       <button
         disabled={!location.coords}

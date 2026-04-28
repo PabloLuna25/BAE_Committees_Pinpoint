@@ -22,8 +22,12 @@
 
 /* Text */
 .card p {
-  margin: 0 0 15px;
+  margin: 0 0 10px;
   color: #555;
+}
+
+.card p:nth-child(3){
+  margin: 0 0 15px;
 }
 
 /* Button */
