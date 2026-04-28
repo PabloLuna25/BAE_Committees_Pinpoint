@@ -18,7 +18,7 @@ export default function Home({ navigate }) {
     console.log(results)
 
     console.log("Selected:", provincia, canton, distrito);
-    console.log("First item:", data[0]);
+    //console.log("First item:", data[0]);
 
     // Check OSM
     const withCoords = await Promise.all(results.map(async loc => {
