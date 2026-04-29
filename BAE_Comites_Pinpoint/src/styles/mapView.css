@@ -2,6 +2,7 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  height: 95vh;
 }
 
 .locationInfo {
@@ -32,7 +33,7 @@
   /* flex: 2; */
   width: 50%;
   /* margin: 0 auto; */
-  height: 500px;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
