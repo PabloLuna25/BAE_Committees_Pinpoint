@@ -17,18 +17,41 @@ L.Icon.Default.mergeOptions({
 export default function MapView() {
   const { state } = useLocation();
 
-  if (!state || !state.coords) return <p>No location found</p>;
+  if (!state || !state.coords){
+    alert("Ninguna localización fue brindada, volviendo a home")
+    window.location.href = "/"
+  }
 
   const copyCoords = () => {
+    console.log("Coords clicked!");
     navigator.clipboard.writeText(
-      `${state.coords.lat} ${state.coords.lon}`
+      `${state.coords.lat}, ${state.coords.lon}`
     );
     alert("Coordenadas copiadas");
   };
 
   return (
     <div className="mapStats">
-      <h2>{state.nombre}</h2>
+
+      <div className="locationInfo">
+        <h2>{state.nombre}</h2>
+        <p>
+          <span className="locationInfoTitle">Provincia: </span>
+          <span className="locationInfoValue">{state.provincia}</span>
+        </p>
+        <p>
+          <span className="locationInfoTitle">Canton: </span>
+          <span className="locationInfoValue">{state.canton}</span>
+        </p>
+        <p>
+          <span className="locationInfoTitle">Distrito: </span>
+          <span className="locationInfoValue">{state.distrito}</span>
+        </p>
+        <p>
+          <span className="locationInfoTitle">Categoría: </span>
+          <span className="locationInfoValue">{state.categoria}</span>
+        </p>
+      </div>
 
       <MapContainer
         className="mapContainer"
